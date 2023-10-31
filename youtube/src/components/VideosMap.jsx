@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 const VideosMap = () => {
+
     const [videos, setVideos] = useState([
         {
             image:'https://i.ytimg.com/vi/oZIlIludZto/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCfXaWhZs1SEN0i88WIO-DoSafzGw',
@@ -46,7 +47,8 @@ const VideosMap = () => {
         },
     ])
 
-    
+
+        
   return (
     <div className='map-container'>
       {videos.map((user)=>(

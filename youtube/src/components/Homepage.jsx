@@ -1,7 +1,7 @@
 import Category from "./Category"
 import Navbar from "./Navbar"
 import VerticalNav from "./VerticalNav"
-import VideosMap from "./VideosMap"
+import VideosMap  from "./VideosMap"
 
 const Homepage = ()=>{
 

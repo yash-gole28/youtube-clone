@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
+// import { useNavigate } from 'react-router-dom'
 
-const VideosMap = () => {
+ const VideosMap = () => {
+    // const navigate = useNavigate()
 
-    const [videos, setVideos] = useState([
+   const [videos, setVideos] = useState([
         {
             image:'https://i.ytimg.com/vi/oZIlIludZto/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCfXaWhZs1SEN0i88WIO-DoSafzGw',
             title:'Why British Left India? | Reality of Quit India Movement | Mahatma Gandhi | ',
@@ -53,7 +55,7 @@ const VideosMap = () => {
     <div className='map-container'>
       {videos.map((user)=>(
         <div className='map-data' style={{color:'white'}}>
-            <img src={user.image} alt="" />
+            <img  src={user.image} alt="" />
             <div className='m-title'>{user.title}</div>
             <div className='m-youtuber'>{user.youtuber}</div>
             <span className='m-views'>{user.views}</span>

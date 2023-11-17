@@ -4,7 +4,7 @@
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-    /* background-color: rgb(0, 0, 0); */
+    background-color: rgb(0, 0, 0);
     height: fit-content;
     
     /* overflow-y: hidden; */
@@ -321,4 +321,224 @@ background-color: grey;
 
 .fit{
     width: fit-content;
+}
+
+.hist-body{
+    position: absolute;
+    /* height: 470px; */
+    top: 100px;
+    right: 0;
+    width: 90%;
+    margin-right: 20px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    height: 85vh;
+    /* background-color: black; */
+    overflow: hidden;
+}
+.hist-body-left{
+    width: 58%;
+    height: 100%;
+    /* border: 1px solid green; */
+}
+
+.hist-body-right{
+    width: 40%;
+    /* border: 1px solid red; */
+}
+
+.map-hist{
+    /* height: 75vh; */
+    height:100%;
+    overflow-y: scroll;
+    margin-top: 20px;
+}
+
+.map-hist::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+
+.map-hist-container{
+display: flex;
+justify-content: space-between;
+margin-bottom: 10px;
+}
+.map-hist-container img{
+    width: 30%;
+    border-radius: 8px;
+}
+.hist-details{
+width: 65%;
+/* border: 1px solid pink; */
+}
+
+.hist-body-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.manage-hist{
+    /* border: 1px solid yellow; */
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.manage-hist h3{
+    font-weight: 500;
+    font-size: 15px;
+}
+.manage-hist i {
+    /* border:1px solid green; */
+    width: fit-content;
+    margin-right: 10px;
+}
+
+.hist-search{
+    width: 70%;
+    /* border-bottom: 1px solid grey; */
+    margin-bottom: 15px;
+    margin-top: 30px;
+    padding-bottom: 8px;
+    display: flex;
+}
+
+.hist-search input{
+    border: none;
+    outline: none;
+}
+
+.hist-icon{
+    /* border: 1px solid red; */
+    position: relative;
+    bottom: 8px;
+    width: 20px;
+    height: 20px;
+    padding-top: 15px;
+    margin-right: 20px;
+}
+
+.m-h-2{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color:grey;
+    font-weight: 600;
+}
+
+.you-body{
+    position: absolute;
+    /* height: 470px; */
+    top: 100px;
+    right: 0;
+    width: 90%;
+    margin-right: 20px;
+    padding-bottom: 50px;
+    /* border: 1px solid white; */
+    height: 85vh;
+    /* background-color: black; */
+    overflow: scroll;
+    /* align-items: center; */
+}
+
+.you-body::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+
+.you-heading{
+    display: flex;
+    align-items: center;
+    height: 25vh;
+    /* border: 1px solid green; */
+    color:white;
+    margin-bottom: 30px;
+}
+
+.you-heading h1{
+    width: fit-content;
+    /* border: 1px solid yellow; */
+}
+
+.profile-img{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    background-color: rgb(76, 197, 155);
+    border-radius: 50%;
+    font-size: 50px;
+    color :white
+}
+
+.switch-btn{
+    background-color: rgb(80, 78, 78,0.5);
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    font-size: 13px;
+    /* margin-top: 35px; */
+}
+
+.you-map{
+    width:'96%';
+    /* padding-bottom: 150px; */
+    /* border: 1px solid greenyellow; */
+    height:100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(94, 93, 93);
+}
+
+.you-map::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+
+.you-map img{
+    width: 200px;
+    
+}
+
+.you-container{
+    height: fit-content;
+    /* border: 1px solid green; */
+    color: white;
+}
+
+.overflow-hidden{
+    height: 40px;
+    overflow: hidden;
+    font-size: 13px;
+}
+
+.font-grey{
+    color: gray;
+}
+
+.size-13{
+    font-size: 13px;
+}
+.size-15{
+    font-size: 15;
+}
+
+.col-white{
+    color: white;
+}
+
+.you-bottom{
+    border-bottom:  1px solid rgb(94, 93, 93) ;
+    padding: 30px 0px;
+}
+
+.you-bottom h1{
+    font-size: 18px;
 }
